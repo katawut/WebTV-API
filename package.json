@@ -1,0 +1,32 @@
+{
+  "name": "webtv-api",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha **/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "express-validator": "^4.3.0",
+    "helmet": "^3.9.0",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "path": "^0.12.7",
+    "pmx": "^1.5.5",
+    "redis": "^2.8.0",
+    "redis-delete-wildcard": "0.0.3",
+    "response-time": "^2.3.2",
+    "url": "^0.11.0",
+    "validator": "^9.2.0",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2"
+  }
+}
